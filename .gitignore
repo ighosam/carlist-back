@@ -65,7 +65,7 @@ $RECYCLE.BIN/
 # Logs and databases
 ############################
 
-.tmp
+#.tmp
 *.log
 *.sql
 *.sqlite
@@ -110,5 +110,5 @@ license.txt
 exports
 .strapi
 dist
-build
+#build
 .strapi-updater.json
