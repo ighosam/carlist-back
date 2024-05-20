@@ -18,6 +18,7 @@ module.exports = {
    */
   bootstrap(/*{ strapi }*/) {
 //we want to listen to lifecycle evetns
+//see if there is any changes
 
   },
 };
