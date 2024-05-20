@@ -26,6 +26,6 @@ jobs:
         script: |
           cd ${{secrets.SRC_DIR}}
           eval $(ssh-agent)
-          git pull origin main
-          passphrase ${{ secrets.PASSPHRASE }}
+          git pull origin main |${{ secrets.PASSPHRASE }}
+         
         
