@@ -27,6 +27,6 @@ jobs:
           cd ${{secrets.SRC_DIR}}
           git pull -f origin main
           npm install
-          pm2 start server.js
+          pm2 reload server.js
           
         
