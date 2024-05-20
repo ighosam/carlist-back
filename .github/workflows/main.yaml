@@ -25,5 +25,6 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           cd ${{secrets.SRC_DIR}}
+           passphrase: ${{ secrets.PASSPHRASE }}
           git pull origin main
         
